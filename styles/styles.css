@@ -1,0 +1,47 @@
+.abs-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.move-right {
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+.table td, .table th {
+    padding: 0.25rem;
+} 
+
+.button-container {
+  color: burlywood;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.form-control:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+#backBtn .btn-primary {
+  background-color: #343a40;
+  border-color: #343a40;
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f8f9fa;
+  z-index: 1000;
+}
